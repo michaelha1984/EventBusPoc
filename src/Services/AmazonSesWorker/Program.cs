@@ -1,9 +1,5 @@
-using AmazonSesWorker.Services;
 using Application;
 using EventBus.RabbitMq.Extensions;
-using IVE.Digital.Gateway.Application;
-using IVE.Digital.Gateway.Application.Common.Interfaces;
-using IVE.Digital.Gateway.Infrastructure;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
