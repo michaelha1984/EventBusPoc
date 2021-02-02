@@ -1,4 +1,5 @@
 using AmazonSesWorker.Services;
+using Application;
 using EventBus.RabbitMq.Extensions;
 using IVE.Digital.Gateway.Application;
 using IVE.Digital.Gateway.Application.Common.Interfaces;
@@ -20,6 +21,7 @@ namespace AmazonSesWorker
                 .ConfigureServices((hostContext, services) =>
                 {
                     services.AddHostedService<Worker>();
+                    services.AddApplication();
                     services.AddRabbitMq();
                 });
     }

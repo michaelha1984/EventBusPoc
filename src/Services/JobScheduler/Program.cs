@@ -1,3 +1,4 @@
+using Application;
 using EventBus.RabbitMq.Extensions;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -16,6 +17,7 @@ namespace JobScheduler
                 .ConfigureServices((hostContext, services) =>
                 {
                     services.AddHostedService<Worker>();
+                    services.AddApplication();
                     services.AddRabbitMq();
                 });
     }

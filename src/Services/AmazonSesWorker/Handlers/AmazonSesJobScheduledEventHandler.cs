@@ -1,6 +1,6 @@
 ﻿using AmazonSesWorker.Events;
+using Application.Queries.GetAmazonSesConfiguration;
 using EventBus.Common.Abstractions;
-using IVE.Digital.Gateway.Application.Amazon.Queries;
 using MediatR;
 using System;
 using System.Threading.Tasks;

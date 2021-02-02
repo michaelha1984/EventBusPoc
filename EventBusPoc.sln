@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobScheduler", "src\Service
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazonSesWorker", "src\Services\AmazonSesWorker\AmazonSesWorker.csproj", "{9A57F37E-729E-41DC-B8BC-CFD91041A801}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "src\Application\Application.csproj", "{5E9ADA62-E0E0-448B-9DB0-1738EAEC51F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{9A57F37E-729E-41DC-B8BC-CFD91041A801}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A57F37E-729E-41DC-B8BC-CFD91041A801}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A57F37E-729E-41DC-B8BC-CFD91041A801}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E9ADA62-E0E0-448B-9DB0-1738EAEC51F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E9ADA62-E0E0-448B-9DB0-1738EAEC51F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E9ADA62-E0E0-448B-9DB0-1738EAEC51F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E9ADA62-E0E0-448B-9DB0-1738EAEC51F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +56,7 @@ Global
 		{3A886E0D-0734-4479-8E59-B3367BF09D64} = {51C97334-1E0E-492F-A8DE-4D774A458117}
 		{531F245A-9257-4EC4-9125-41D09278B290} = {3A886E0D-0734-4479-8E59-B3367BF09D64}
 		{9A57F37E-729E-41DC-B8BC-CFD91041A801} = {3A886E0D-0734-4479-8E59-B3367BF09D64}
+		{5E9ADA62-E0E0-448B-9DB0-1738EAEC51F3} = {51C97334-1E0E-492F-A8DE-4D774A458117}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {669C6103-32A8-4C54-946E-3D310ED5E62D}
