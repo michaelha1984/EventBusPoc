@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{51C97334-1E0E-492F-A8DE-4D774A458117}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EventBus", "EventBus", "{67FA524B-4117-4D7F-B4A5-8A1F5AF3A90A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus.Common", "src\EventBus\EventBus.Common\EventBus.Common.csproj", "{157E0963-A2F7-4B5F-BD50-337D643EC0C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{157E0963-A2F7-4B5F-BD50-337D643EC0C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{157E0963-A2F7-4B5F-BD50-337D643EC0C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{157E0963-A2F7-4B5F-BD50-337D643EC0C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{157E0963-A2F7-4B5F-BD50-337D643EC0C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{67FA524B-4117-4D7F-B4A5-8A1F5AF3A90A} = {51C97334-1E0E-492F-A8DE-4D774A458117}
+		{157E0963-A2F7-4B5F-BD50-337D643EC0C5} = {67FA524B-4117-4D7F-B4A5-8A1F5AF3A90A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {669C6103-32A8-4C54-946E-3D310ED5E62D}
+	EndGlobalSection
+EndGlobal
